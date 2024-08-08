@@ -47,15 +47,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Check back at Client-1 to see the ping succeed
 
 </p>
-https://i.imgur.com/mHfYtf0.png
 
-
-https://i.imgur.com/k9jw8o0.png
-https://i.imgur.com/ars1TsV.png
-https://i.imgur.com/VSSvcYV.png
-https://i.imgur.com/xIP3UTI.png
-https://i.imgur.com/kzsJOvW.png
-https://i.imgur.com/o1OzFWp.png
 
 
 
@@ -69,3 +61,43 @@ https://i.imgur.com/o1OzFWp.png
 <p>
 <img src="https://i.imgur.com/j0afGUZ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<img src="https://i.imgur.com/mHfYtf0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/k9jw8o0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ars1TsV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/VSSvcYV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/xIP3UTI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/kzsJOvW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/o1OzFWp.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+https://i.imgur.com/i6lfMVE.png
+https://i.imgur.com/d2ZI7xZ.png
+https://i.imgur.com/iyGGU7V.png
+https://i.imgur.com/3UbJGYi.png
+https://i.imgur.com/HG1NzTp.png
+
+<p>
+<img src="https://i.imgur.com/Tnf46S2.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+https://i.imgur.com/RrQmqBp.png
+https://i.imgur.com/xzRW3F6.png
+https://i.imgur.com/bIAmIx2.png
+https://i.imgur.com/VM6ytZn.png
+https://i.imgur.com/zl5HLii.png
+
+
+
