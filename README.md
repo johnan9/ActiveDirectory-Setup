@@ -97,7 +97,10 @@ https://i.imgur.com/RrQmqBp.png
 https://i.imgur.com/xzRW3F6.png
 https://i.imgur.com/bIAmIx2.png
 https://i.imgur.com/VM6ytZn.png
-https://i.imgur.com/zl5HLii.png
+<p>
+<img src="https://i.imgur.com/zl5HLii.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
 
 
 
