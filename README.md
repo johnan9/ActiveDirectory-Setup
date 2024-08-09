@@ -15,7 +15,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 Pro (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
@@ -132,7 +132,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address(10.0.0.4)
 - From the Azure Portal, restart Client-1
 - Login to Client-1 (Remote Desktop) as the original local admin (johnan) and join it to the domain (computer will restart)
-  - Navigate to About your PC > Rename the PC (advanced) > Change the domain > Domain > mydomain.com
+  - Navigate to <b>About your PC</b> > <b>Rename the PC (advanced)</b> > Change the domain > <b>Domain</b> > Type "<b>mydomain.com</b>"
 - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in <b>Active Directory Users and Computers</b> (ADUC) inside the <b>Computers</b> container on the root of the domain
 </p>
 
@@ -163,6 +163,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Log into Client-1 as <b>mydomain.com\jane_admin</b> and open system properties
 - Click <b>Remote Desktop</b>
 - Allow <b>Domain Users</b> access to remote desktop
+  - Navigate to <b>Remote Desktop</b> > <b>Select users that can remotely access this PC</b> > <b>Add</b> > <b>"Domain Users"</b>
 - You can now log into Client-1 as a normal, non-administrative user now
   - (Normally you’d want to do this with Group Policy that allows you to change MANY systems at once)
 </p>
@@ -177,11 +178,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <b>7.) Create additional users (using Script) and attempt to log into client-1 with one of the users</b>
 
 - Login to DC-1 as jane_admin
-- Open PowerShell_ise as an administrator
-- Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
-- Run the script and observe the accounts being created
+- Open <b>PowerShell_ise</b> as an administrator
+- Create a new <b>File</b> in PowerShell and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+- Run the script and observe the accounts being created (username: <first_name.last_name>, password: <b>Password1</b>)
 - When finished, open ADUC and observe the accounts in the appropriate OU
-- Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+- Attempt to log into Client-1 with one of the accounts(<b>beji.cur</b>)
 </p>
 <p>
 <img src="https://i.imgur.com/5jthMZq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
