@@ -38,7 +38,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create the Client VM (Windows 10) named <b>Client-1</b>. Use the same Resource Group and Vnet that was created.
 </p>
 <p>
-<img src="https://i.imgur.com/j0afGUZ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6NTgn0u.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
